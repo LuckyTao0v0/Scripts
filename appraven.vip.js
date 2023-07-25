@@ -13,7 +13,7 @@
 
 [rewrite_local]
 
-^https?:\/\/v2\.appraven\.net\/appraven\/graphql url script-response-body https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js
+^https?:\/\/v2\.appraven\.net\/appraven\/graphql url script-response-body https://raw.githubusercontent.com/LuckyTao0v0/loon-plugin/main/appraven.vip.js
 
 [mitm]
 
