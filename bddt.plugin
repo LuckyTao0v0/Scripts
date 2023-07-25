@@ -1,0 +1,35 @@
+#!name=百度地图去广告
+
+#!desc=百度地图去广告
+
+#!author=ddgksf2013
+
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/bddt.png
+
+
+[URL Rewrite]
+
+# > 百度地图_搜索框下足记Tips@ddgksf2013
+^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=rgc reject-200
+
+# > 百度地图_搜索推广@ddgksf2013
+^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=hw reject-200
+
+# > 百度地图_开屏广告|首页左上角广告@ddgksf2013
+^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads reject-200
+
+# > 百度地图_DNS处理@ddgksf2013
+^https?:\/\/httpdns\.baidubce\.com reject-200
+
+# > 百度地图_各种商业推广@ddgksf2013
+^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing reject-200
+
+# > 百度地图_我的页面地图动态@ddgksf2013
+^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic reject-200
+
+
+
+[MITM]
+
+hostname=180.76.76.200, newclient.map.baidu.com, httpdns.baidubce.com
+
