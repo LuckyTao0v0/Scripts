@@ -7,7 +7,7 @@
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/bddt.png
 
 
-[URL Rewrite]
+[Rewrite]
 
 # > 百度地图_搜索框下足记Tips@ddgksf2013
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=rgc - reject
